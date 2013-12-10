@@ -1,5 +1,5 @@
 
-# $Id: random.R 13 2009-08-12 11:49:59Z edd $
+# $Id$
 
 randomQuota <- function() {
     urltxt <- "http://random.org/quota/?format=plain"

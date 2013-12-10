@@ -1,0 +1,15 @@
+771ebe0943ffc5b6b9ca0f9e40722317 *ChangeLog
+f436da42e9c24c07f6e3d27fdd5fdd7f *DESCRIPTION
+b719855d19bd496b3fa7205c250ee27d *NAMESPACE
+f3402283a68e14067c8f09da4449b322 *R/random.R
+9c336f1e1b9afe542a785255acdcd46b *build/vignette.rds
+8788690f208db14973c7cfef9b6127bf *inst/doc/random-essay.Rnw
+a110091a32f6392d1cd675e74ba98616 *inst/doc/random-essay.pdf
+02fb20657edc308782508b0ebc2a9a84 *inst/doc/random-intro.R
+5cc436794c516f0847afdd67e4a0b622 *inst/doc/random-intro.Rnw
+a12eb0c78ac1ebbd1ec732798932783c *inst/doc/random-intro.pdf
+cbc020f85a4074a33a656111c52fc96a *man/random.Rd
+8788690f208db14973c7cfef9b6127bf *vignettes/random-essay.Rnw
+5cc436794c516f0847afdd67e4a0b622 *vignettes/random-intro.Rnw
+16e1a077cc37b0f4a70fdae47a2b4412 *vignettes/random-intro.bib
+b880593539c9b3bcf2d9b71edf54bdca *vignettes/random.Rdata
