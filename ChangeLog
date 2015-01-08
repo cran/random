@@ -1,8 +1,25 @@
+2015-01-08  Dirk Eddelbuettel  <edd@debian.org>
+
+	* DESCRIPTION (Date): Release 0.2.3 
+
+2015-01-07  Dirk Eddelbuettel  <edd@debian.org>
+
+	* R/random.R: Some cleanups, added copyright header
+	
+2015-01-06  Dirk Eddelbuettel  <edd@debian.org>
+
+	* R/random.R: Switch to using curl() which supports https
+
+	* DESCRIPTION: Added Import: curl; bumped Version: and Date:
+	* NAMESPACE: Import curl from curl
+
 2013-12-10  Dirk Eddelbuettel  <edd@debian.org>
 
 	* DESCRIPTION: Release 0.2.2
 
 	* vignettes/*: Moved files from inst/doc/
+
+	* ChangeLog/*: Moved from inst/
 
 	* .travis.yml: Added for Github / Travis support
 	* .gitignore: Added for git support
