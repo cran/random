@@ -1,3 +1,20 @@
+2017-02-05  Dirk Eddelbuettel  <edd@max.eddelbuettel.com>
+
+	* DESCRIPTION (Version): Release 0.2.6 
+
+2017-02-04  Dirk Eddelbuettel  <edd@max.eddelbuettel.com>
+
+	* DESCRIPTION (Version, Date): Roll minor version
+
+	* tests/minimalTests.R: At request of CRAN, run only if explicitly
+	enabled via environment variable; refactored using stopifnot()
+
+	* .travis.yml: Switch to using run.sh for Travis CI
+
+2015-07-03  Dirk Eddelbuettel  <edd@debian.org>
+
+	* .travis.yml: Install curl via the marutter PPA as r-cran-curl
+
 2015-06-30  Dirk Eddelbuettel  <edd@debian.org>
 
 	* DESCRIPTION: Release 0.2.5
