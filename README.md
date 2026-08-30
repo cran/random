@@ -1,13 +1,18 @@
 
-## random [![Build Status](https://travis-ci.org/eddelbuettel/random.svg)](https://travis-ci.org/eddelbuettel/random) [![License](http://img.shields.io/badge/license-GPL%20%28%3E=%202%29-brightgreen.svg?style=flat)](http://www.gnu.org/licenses/gpl-2.0.html) [![CRAN](http://www.r-pkg.org/badges/version/random)](https://cran.r-project.org/package=random) [![Downloads](http://cranlogs.r-pkg.org/badges/random?color=brightgreen)](http://www.r-pkg.org/pkg/random)
+## R package for true random numbers from [random.org](https://www.random.org)
 
+[![CI](https://github.com/eddelbuettel/random/workflows/ci/badge.svg)](https://github.com/eddelbuettel/random/actions?query=workflow%3Aci)
+[![License](https://img.shields.io/badge/license-GPL%20%28%3E=%202%29-brightgreen.svg?style=flat)](https://www.r-project.org/Licenses/GPL-2) 
+[![CRAN](https://www.r-pkg.org/badges/version/random)](https://cran.r-project.org/package=random) 
+[![Dependencies](https://tinyverse.netlify.app/badge/random)](https://cran.r-project.org/package=random)
+[![Downloads](https://cranlogs.r-pkg.org/badges/random?color=brightgreen)](https://www.r-pkg.org/pkg/random)
+[![Last Commit](https://img.shields.io/github/last-commit/eddelbuettel/random)](https://github.com/eddelbuettel/random)
 
-R package for true random numbers from [random.org](https://www.random.org)
 
 ### About
 
 This package provides an interface to the true random number service provided
-by the [random.org](https://random.org) website created by Mads Haahr.
+by the [random.org](https://www.random.org) website created by Mads Haahr.
 
 The random.org web service samples atmospheric noise via radio 
 tuned to an unused broadcasting frequency together with a skew

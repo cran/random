@@ -6,7 +6,8 @@
 library(random)
 options(SweaveHooks=list(twofig=function() {par(mfrow=c(1,2))},
                          twofig2=function() {par(mfrow=c(2,1))},
-                         onefig=function() {par(mfrow=c(1,1))}))
+                         onefig=function() {par(mfrow=c(1,1))}),
+        width=70)
 
 
 ###################################################
@@ -27,8 +28,8 @@ if ( !(file.exists("random.Rdata")) ) {
 ### code chunk number 3: <stats
 ###################################################
 summary(randomOrg)
-apply(randomOrg, 2, function(X) quantile(X,c(0.01, 0.05, 0.1, 0.25, 0.5, 0.75, 0.9, 0.95, 0.99), digits=4))
-#
+apply(randomOrg, 2, function(X) quantile(X,c(0.01, 0.05, 0.1, 0.25, 0.5, 0.75,
+                                             0.9, 0.95, 0.99), digits=4))
 
 
 ###################################################
@@ -37,5 +38,3 @@ apply(randomOrg, 2, function(X) quantile(X,c(0.01, 0.05, 0.1, 0.25, 0.5, 0.75, 0
 getOption("SweaveHooks")[["twofig"]]()
 plot(randomOrg, ylab="", xlab="", main="5000 random,org U(0,1) draws", pch='.')
 hist(matrix(randomOrg, ncol=1), xlab = "", ylab = "", main="Histogram")
-
-

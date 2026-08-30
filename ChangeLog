@@ -1,6 +1,69 @@
+2026-08-29  Dirk Eddelbuettel  <edd@debian.org>
+
+	* DESCRIPTION (Version, Date): Release 0.2.7
+
+	* vignettes/random-intro.bib: Refreshed several URLs and entries
+	* vignettes/random-intro.Rnw: Idem, also added two references
+	* vignettes/random-intro.pdf: Rerendered, added two references
+	* vignettes/random-essay.Rnw: Refreshed several URLs
+	* vignettes/random-essay.pdf: Rerendered
+	* man/random.Rd: Refreshed two URLs
+	* README.md: Replaced FSF URL for GPL-2 with R-Project.org one
+	* R/random.R: Use inherits() to test object class
+
+	* .github/workflows/ci.yaml: Switch to actions/checkout@v7
+
+2026-01-05  Dirk Eddelbuettel  <edd@debian.org>
+
+	* .github/workflows/ci.yaml: Switch to actions/checkout@v6
+
+2025-02-15  Dirk Eddelbuettel  <edd@debian.org>
+
+	* .github/workflows/ci.yaml (jobs): Use r-ci action with bootstrap
+
+2024-09-06  Dirk Eddelbuettel  <edd@debian.org>
+
+	* DESCRIPTION (Authors@R): Added
+
+2024-05-19  Dirk Eddelbuettel  <edd@debian.org>
+
+	* README.md: Use tinyverse.netlify.app for dependency badge
+
+2024-02-21  Dirk Eddelbuettel  <edd@debian.org>
+
+	* .github/workflows/ci.yaml (jobs): Update to actions/checkout@v4,
+	add r-ci-setup actions
+
+2022-11-10  Dirk Eddelbuettel  <edd@debian.org>
+
+	* .github/workflows/ci.yaml (jobs): Update to actions/checkout@v3
+
+2021-08-07  Dirk Eddelbuettel  <edd@debian.org>
+
+	* DESCRIPTION (Version, Date): Roll minor version
+
+2021-04-07  Dirk Eddelbuettel  <edd@debian.org>
+
+	* DESCRIPTION (URL, BugReports): Add repo, package page, issues
+
+2020-12-29  Dirk Eddelbuettel  <edd@debian.org>
+
+        * .github/workflows/ci.yaml: Add CI runner using r-ci
+	* README.md: Add new CI badge
+
+2020-09-21  Dirk Eddelbuettel  <edd@debian.org>
+
+	* README.md: Added 'last commit' badge
+
+	* .travis.yml: Update to 'bionic', R 4.0, and BSPM
+
+2019-08-24  Dirk Eddelbuettel  <edd@debian.org>
+
+	* DESCRIPTION (Author): Use name without email as in other packages
+
 2017-02-05  Dirk Eddelbuettel  <edd@max.eddelbuettel.com>
 
-	* DESCRIPTION (Version): Release 0.2.6 
+	* DESCRIPTION (Version): Release 0.2.6
 
 2017-02-04  Dirk Eddelbuettel  <edd@max.eddelbuettel.com>
 
